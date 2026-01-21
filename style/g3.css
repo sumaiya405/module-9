@@ -217,7 +217,12 @@ main>section{
 .feature-img img{
   width: 650px;
 }
-
+.feature-enjoy-description{
+  margin-bottom:60px;
+}
+.feature-img{
+  margin-top:60px;
+}
 
 /* responsive media */
 @media screen and (max-width:576px){
