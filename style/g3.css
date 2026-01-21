@@ -134,6 +134,7 @@ main>section{
   justify-content: center;
   gap: 70px;
   margin-left:20px;
+  margin-top: 50px;
 }
 .fact-number{
   font-size:2em;
@@ -173,18 +174,57 @@ main>section{
 .sponsor-logo img:hover{
   filter:grayscale(0%);
 }
+.our-sponsor{
+  margin-top: 140px;
+}
 
 
-
-
-
+/* features part-2 */
+#danti{
+  border-left:5px solid #FF900E;
+  padding-left: 20px;
+}
+.feature-card{
+  box-shadow:0 4px 30px rgba(0,0,0,0.06);
+  margin-bottom: 20px;
+  padding: 30px;
+  border-radius: 8px;
+}
+.feature-card .feature-title{
+  font-weight:600;
+  font-size: 1.25rem;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.feature-enjoy{
+  display: flex;
+  gap: 100px;
+  margin-top: 190px;
+}
+#experience-badge{
+  padding:40px 38px;
+  border-radius: 6px;
+  margin:0;
+  font-weight:500;
+  font-size:1.25rem;
+  margin-left:-70px;
+  margin-top:-90px;
+}
+#experience-yr{
+  font-weight:700;
+  font-size: 3rem;
+}
+.feature-img img{
+  width: 650px;
+}
 
 
 /* responsive media */
 @media screen and (max-width:576px){
   .navbar,
   .nav-links,
-  .teams{
+  .teams,
+  .feature-enjoy{
     flex-direction: column;
   }
 
@@ -192,7 +232,7 @@ main>section{
     grid-template-columns: repeat(1,1fr);
   }
  
-  .features{
+  .features,.feature-img{
   margin:0 30px;
   max-width: 100%;
 }
@@ -206,6 +246,10 @@ main>section{
 
 #fact-description,.fact-title{
   text-align: center;
+}
+#experience-badge{
+  margin-top:20px;
+  margin-left:30px;
 }
 }
 
@@ -234,5 +278,8 @@ main>section{
   text-align: center;
   max-width: 80%;
   margin: 50px auto;
+}
+.feature-enjoy{
+  flex-direction: column;
 }
 }
