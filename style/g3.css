@@ -224,6 +224,18 @@ main>section{
   margin-top:60px;
 }
 
+
+
+/*footer style*/
+.footer-div{
+  padding:20px;
+  margin:100px 200px 130px;
+  border-radius: 7px;
+  text-align: center;
+}
+
+
+
 /* responsive media */
 @media screen and (max-width:576px){
   .navbar,
@@ -256,6 +268,10 @@ main>section{
   margin-top:20px;
   margin-left:30px;
 }
+.footer-div{
+  margin: 50px 20px;
+  text-align: center;
+}
 }
 
 /*medium screen*/
@@ -286,5 +302,9 @@ main>section{
 }
 .feature-enjoy{
   flex-direction: column;
+}
+.footer-div{
+  margin: 80px 100px;
+  text-align: center;
 }
 }
